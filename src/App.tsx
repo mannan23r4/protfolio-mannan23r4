@@ -10,7 +10,7 @@ const projects = [
       'Made a Social Media Platform with WEB3 Wallet Integration',
     tech: ['VueJS', 'TypeScript', 'Laravel', 'Ether.js', 'Tailwind CSS', 'Web3 Wallet Integration'],
     link: '#',
-    image: '../public/images/main4-1.png',
+    image: './/assets/main4-1.png',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
   {
@@ -21,7 +21,7 @@ const projects = [
       'Graphic Designing and Social Media Handling for a Start-Up',
     tech: ['Graphic Designing', 'Social Media Handling'],
     link: '#',
-    image: '../public/images/main3-3.png',
+    image: './/assets/main3-3.png',
     gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       'A static website for a Start-Up Web Development Company',
     tech: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
-    image: '../public/images/main1.png',
+    image: './/assets/main1.png',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
   {
@@ -43,7 +43,7 @@ const projects = [
       'A static website for a Gym and E-Commerce Platform',
     tech: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
-    image: '../public/images/main2-4.png',
+    image: './/assets/main2-4.png',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
 ]
@@ -135,7 +135,7 @@ function App() {
             <div className="profile-image-wrapper">
               <div className="profile-image" data-animate-text>
                 <img
-                  src="../public/images/profilepic.jpeg"
+                  src="./assets/profilepic.jpeg"
                   alt="Ansari Abdul Mannan"
                 />
                 <div className="profile-gradient"></div>
@@ -324,7 +324,7 @@ function App() {
               <a
                 className="secondary-link"
                 target='_blank'
-                href="..public/images/ABDULMANNAN.pdf"
+                href="..public/assets/ABDULMANNAN.pdf"
               >
                 Download résumé
               </a>
