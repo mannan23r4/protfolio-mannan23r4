@@ -19,7 +19,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run deploy",
-    "deploy": "gh-pages -d dist"  
+    "deploy": "gh-pages -b main"  
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
