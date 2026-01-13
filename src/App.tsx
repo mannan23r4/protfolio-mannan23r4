@@ -324,7 +324,7 @@ function App() {
               <a
                 className="secondary-link"
                 target='_blank'
-                href="..public/assets/ABDULMANNAN.pdf"
+                href="./assets/ABDULMANNAN.pdf"
               >
                 Download résumé
               </a>
